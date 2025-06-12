@@ -13,13 +13,13 @@
         <div class="logo-container">
             <a class="logo" href="#">Renan Freitas</a>
         </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="hero">
         <div class="hero-image">
@@ -33,34 +33,37 @@
             </div>
         </div>
     </section>
-    <section class="about" data-aos="fade-up">
+    <section class="about" id="about" data-aos="fade-up">
         <h2>About Me</h2>
         <p>Hello! I'm Renan Freitas, a passionate developer with a love for creating innovative solutions.</p>
         <div class="skills">
-            <h2>Soft Skills</h3>
-            <ul class="skill-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Node.js</li>
-                <li>React</li>
-                <li>Spring Boot</li>
-                <li>Angular</li>
-                <li>VueJs</li>
-                <li>Python</li>
-            </ul>
-            <h2> Hard Skills</h3>
-            <ul class="hard-skill">
-                <li>Problem Solving</li>
-                <li>Team Collaboration</li>
-                <li>Time Management</li>
-                <li>Adaptability</li>
-                <li>Critical Thinking</li>
-            </ul>
+            <div>
+                <h2>Soft Skills</h3>
+                <ul class="skill-list">
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                    <li>Spring Boot</li>
+                    <li>Angular</li>
+                    <li>VueJs</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div>
+                <h2> Hard Skills</h3>
+                <ul class="hard-skill">
+                    <li>Problem Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                    <li>Critical Thinking</li>
+                </ul>
+            </div>
         </div>
     </section>
-    <section class="projects">
+    <hr>
+    <section class="projects" id="projects" data-aos="fade-up">
         <h2>Projects</h2>
         <div class="project-list">
             <div class="project-item">
@@ -86,10 +89,17 @@
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
         </div>
+        <div class="social-links" id="footer">
+            <a href=""><img src="assets/telegram-svgrepo-com.svg" alt="Telegram"></a>
+            <a href="https://github.com/RFreitasAnjos"><img src="assets/github-svgrepo-com.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/renanfreitasdev/"><img src="assets/linkedin-svgrepo-com.svg" alt="linkedIn"></a>
+            <a href=""><img src="assets/gmail-svgrepo-com.svg" alt="gmail"></a>
+        </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
