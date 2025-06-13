@@ -152,7 +152,6 @@ li a{
     background-color: var(--background-color-about);
     color: var(--text-color-light);
     padding: 40px;
-    text-align: center;
 }
 
 .about h2{
@@ -160,10 +159,11 @@ li a{
     margin-bottom: 20px;
 }
 
-.about p{
+.about .text-about-me{
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 .skills{
@@ -244,6 +244,24 @@ li a{
     border-radius: 10px;
     width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-item a{
+    text-decoration: none;
+    color: var(--text-color-light);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.project-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-item:nth-child(2){
+    order: 3;
 }
 
 .project-item:hover{
